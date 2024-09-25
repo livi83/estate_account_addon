@@ -1,0 +1,12 @@
+<odoo>
+    <record id="view_estate_property_form_account" model="ir.ui.view">
+        <field name="name">estate.property.form.account</field>
+        <field name="model">estate.property</field>
+        <field name="inherit_id" ref="estate.view_estate_property_form"/>
+        <field name="arch" type="xml">
+                <group>
+                    <field name="invoice_id"/>
+                </group>
+        </field>
+    </record>
+</odoo>
